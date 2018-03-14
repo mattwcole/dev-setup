@@ -7,8 +7,8 @@
 Save `change-desktop.ahk` to `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
 
 ```
-!^Right:: send {LWin down}{LCtrl down}{Right}{LWin up}{LCtrl up}
-!^Left:: send {LWin down}{LCtrl down}{Left}{LWin up}{LCtrl up}
+!^Right:: send {LCtrl down}{LWin down}{Right}{LWin up}{LCtrl up}
+!^Left:: send {LCtrl down}{LWin down}{Left}{LWin up}{LCtrl up}
 ```
 
 ### Cmder
